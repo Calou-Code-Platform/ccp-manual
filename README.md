@@ -34,7 +34,7 @@
 3. After install you want package, and run this command `source ~/.bashrc`
 
 ## About tmux
-SSH doesn't like `code-server`, so we need this extension make application can running on background.
+SSH not `code-server`, so we need this extension make application can running on background.
 
 | directions | commands |
 |---|---|
