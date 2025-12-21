@@ -29,8 +29,8 @@
 1. Just create a SSH connection.
 
 ## Initailization
-1. On your terminal, enter this command `~/builder.sh`.
-2. Next use this command `./get-builder.sh`.
+1. On your terminal, enter this command `~/get-builder.sh`.
+2. Next use this command `./builder.sh`.
 3. After install you want package, and run this command `source ~/.bashrc`
 
 ## About tmux
