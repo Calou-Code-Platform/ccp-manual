@@ -34,7 +34,7 @@
 3. After install you want package, and run this command `source ~/.bashrc`
 
 ## About tmux
-SSH not `code-server`, so we need this extension make application can running on background.
+`SSH` not `code-server`, so we need this extension make application can running on background.
 
 | directions | commands |
 |---|---|
@@ -70,7 +70,7 @@ pyenv global 3.10
 | 3000 | `web-<yourname>.calou.cc` |
 | 3100 | `dev-<yourname>.calou.cc` |
 
-# Restart your container
+## Restart your contai
 ```shell
 sudo kill 1
 ```
