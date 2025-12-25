@@ -16,9 +16,12 @@
 1. Click the left-down corner pc icon button.
 2. Select "Install Remote-SSH".
 3. Select "Connect to Host...".
-4. Enter `ssh <yourname>@ssh.calou.cc -p <port>`.
-5. Enter "Yes".
-6. Enter your password.
+4. Select "Add New SSH Host..."
+5. Enter `ssh <yourname>@ssh.calou.cc -p <port>`.
+6. Select "Connect to Host..." Again.
+7. Select Your server.
+8. Yes.
+9. Enter your password.
 
 ### CMD / Powershell / Terminal / termux
 1. Enter `ssh <yourname>@ssh.calou.cc -p <port>`.
