@@ -70,10 +70,11 @@ pyenv global 3.10
 ## Port
 | Your container port | Website url |
 |---|---|
+| 22 | `ssh.calou.cc:<port>` |
 | 3000 | `web-<yourname>.calou.cc` |
 | 3100 | `dev-<yourname>.calou.cc` |
 
-## Restart your contai
+## Restart your contaier
 ```shell
 sudo kill 1
 ```
