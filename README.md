@@ -68,6 +68,7 @@ pyenv global 3.10
 ```
 
 ## Port
+If you select us cloud service, we will forwarding all port.
 | Your container port | Website url |
 |---|---|
 | 22 | `ssh.calou.cc:<port>` |
