@@ -2,6 +2,16 @@
 > This manual just applicable `calou-code-platform:remosh` docker images.<br>
 > if you want try this manual on another platform at your own peril.
 
+## We will...
+- Install tmux is default action. (we will auto install this package)
+- Help you use initailzation script.
+- Tech you how to use nvm. (Not nodejs, is nodejs manager)
+- Tech you how to use pyenv. (Not python, is python manager)
+- Tech you open code-server.
+- Tech you how to use tmux.
+- Tech you how to restart you container.
+- Your container port.
+
 ## Prepare Tools
 | Platform | Tool Name |
 |---|---|
@@ -34,7 +44,27 @@
 ## Initailization
 1. On your terminal, enter this command `~/get-builder.sh`.
 2. Next use this command `./builder.sh`.
-3. After install you want package, and run this command `source ~/.bashrc`
+3. After install you want package, leave the initailzation script, run this command `source ~/.bashrc` (no any response is normal)
+
+## Node.js -> NVM
+About [nvm](https://github.com/nvm-sh/nvm)
+
+if you want node.js v25 ->
+```shell
+nvm install 25
+nvm use 25
+
+node -v #will display v25
+```
+
+## Python -> PYENV
+About [pyenv](https://github.com/pyenv/pyenv)
+
+if you want python 3.10 ->
+```shell
+pyenv install 3.10
+pyenv global 3.10
+```
 
 ## About tmux
 `SSH` not `code-server`, so we need this extension make application can running on background.
@@ -52,20 +82,6 @@
 2. Open new tmux session.
 3. Run `code-server` command on your tmux session.
 4. Use `dev-<yourname>.calou.cc` to connection the web page.
-
-## nvm
-About [nvm](https://github.com/nvm-sh/nvm)
-```shell
-nvm install 25
-nvm use 25
-```
-
-## pyenv
-About [pyenv](https://github.com/pyenv/pyenv)
-```shell
-pyenv install 3.10
-pyenv global 3.10
-```
 
 ## Port
 If you select us cloud service, we will forwarding all port.
