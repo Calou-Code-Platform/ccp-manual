@@ -4,12 +4,12 @@
 
 ## We will...
 - Install tmux is default action. (we will auto install this package)
-- Help you use initailzation script.
-- Tech you how to use nvm. (Not nodejs, is nodejs manager)
-- Tech you how to use pyenv. (Not python, is python manager)
-- Tech you open code-server.
-- Tech you how to use tmux.
-- Tech you how to restart you container.
+- Help you use initialization script.
+- Teach you how to use nvm. (Not nodejs, is nodejs manager)
+- Teach you how to use pyenv. (Not python, is python manager)
+- Teach you open code-server.
+- Teach you how to use tmux.
+- Teach you how to restart you container.
 - Your container port.
 
 ## Prepare Tools
@@ -41,10 +41,10 @@
 ### Termius
 1. Just create a SSH connection.
 
-## Initailization
+## Initalization
 1. On your terminal, enter this command `~/get-builder.sh`.
 2. Next use this command `./builder.sh`.
-3. After install you want package, leave the initailzation script, run this command `source ~/.bashrc` (no any response is normal)
+3. After install you want package, leave the Initalization script, run this command `source ~/.bashrc` (no any response is normal)
 
 ## Node.js -> NVM
 About [nvm](https://github.com/nvm-sh/nvm)
@@ -78,7 +78,7 @@ pyenv global 3.10
 | Left current session | [Ctrl + B] > [D] |
 
 ## Code-Server
-1. When you initailzation, you need install `code-server`
+1. When you Initalization, you need install `code-server`
 2. Open new tmux session.
 3. Run `code-server` command on your tmux session.
 4. Use `dev-<yourname>.calou.cc` to connection the web page.
@@ -91,7 +91,8 @@ If you select us cloud service, we will forwarding all port.
 | 3000 | `web-<yourname>.calou.cc` |
 | 3100 | `dev-<yourname>.calou.cc` |
 
-## Restart your contaier
+## Restart your container
 ```shell
 sudo kill 1
 ```
+and wait about 5 second, reconnect your container.
