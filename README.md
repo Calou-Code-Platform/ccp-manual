@@ -77,11 +77,12 @@ pyenv global 3.10
 | Show all session | `tmux ls` |
 | Left current session | [Ctrl + B] > [D] |
 
-## Code-Server
-1. When you Initalization, you need install `code-server`
+## VSCode tunnel
+1. When you Initalization, you need install `visual code tunnel`
 2. Open new tmux session.
-3. Run `code-server` command on your tmux session.
-4. Use `dev-<yourname>.calou.cc` to connection the web page.
+3. Run `code-tunnel tunnel` command on your tmux session.
+4. Login.
+5. Go to https://vscode.dev
 
 ## Port
 If you select us cloud service, we will forwarding all port.
