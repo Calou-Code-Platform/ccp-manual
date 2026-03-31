@@ -72,8 +72,8 @@
 | CCP預設使用容器的 Port | 對應地址 |
 |---|---|
 | 22 | `ssh.calou.cc:<port>` |
-| 3000 | `web-<yourname>.calou.cc` |
-| 3100 | `dev-<yourname>.calou.cc` |
+| 3000 | `web-<name>.calou.cc` |
+| 3100 | `dev-<name>.calou.cc` |
 
 ## 我可以用自己的網域嗎？
 可以，如果你有自己的網域，也會使用 `cloudflared tunnel` ，我們允許你使用 `chcfd <token>` 更改 tunnel 的導向。
