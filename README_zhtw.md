@@ -69,7 +69,7 @@
 請不要使用 22 作為端口！<br>
 我們現在全面採用 `cloudflared` 作為主要穿透手段，如果你有需要 web 以外的連線，請在電腦上安裝 `cloudflared client` 即可連線 TCP/UDP 協議等（像是 Minecraft 伺服器）等
 
-| 你容器的 Port | 對應到的地址 |
+| CCP預設使用容器的 Port | 對應地址 |
 |---|---|
 | 22 | `ssh.calou.cc:<port>` |
 | 3000 | `web-<yourname>.calou.cc` |
