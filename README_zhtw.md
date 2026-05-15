@@ -61,7 +61,7 @@
 4. 使用 `devbox generate direnv` + `cd .`
 5. 好了，你未來(即使更新容器)只要cd這個資料夾，他就會自動執行第4步，你就只需要直接 `node index.js` 就好！
 
-> 備註: 如果專案需要用到像是圖形解碼，你只需要使用 `devbox add ffmpeg` 就好，這樣就不會污染其他專案。同理，如果你想要寫C，那就是 `devbox add gcc` 就好。
+> 備註: 如果專案需要用到像是圖形解碼，你只需要使用 `devbox add ffmpeg` 就好，這樣就不會污染其他專案。同理，如果你想要寫C，那就是 `devbox add gcc` 就好，你未來就可以在"這個資料夾"使用`gcc`編譯。
 
 ## 傳統語言安裝用法 (v2.0)
 請參閱 [nvm](https://github.com/nvm-sh/nvm) 與 [pyenv](https://github.com/pyenv/pyenv)。
