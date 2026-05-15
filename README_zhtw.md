@@ -54,14 +54,14 @@
 
 ## 快速語言安裝配置 (v2.1)
 這是 Remosh v2.1 增加的黑魔法: `devbox`，這可以幫助你快速的處理環境，免除過去需要初始化的窘境。<br>
-具體用法是這樣的 (2~4只需執行一次):
+具體用法是這樣的 (2和3只需執行一次):
 1. 首先，先 `cd` 進你要的專案資料夾 (沒有就創建，你這笨蛋)
 2. 使用這個指令 `devbox init`
 3. 再來安裝你要的版本(這裡用node v25 + python 3.13示範) `devbox add python@3.13 nodejs@25`
-4. 使用 `devbox generate direnv` + `cd .`
-5. 好了，你未來(即使更新容器)只要cd這個資料夾，他就會自動執行第4步，你就只需要直接 `node index.js` 就好！
+4. 好了，你未來(即使更新容器)只要cd這個資料夾，他就會自動載入這個資料夾的環境，你就只需要直接 `node index.js` 就好！
 
 > 備註: 如果專案需要用到像是圖形解碼，你只需要使用 `devbox add ffmpeg` 就好，這樣就不會污染其他專案。同理，如果你想要寫C，那就是 `devbox add gcc` 就好，你未來就可以在"這個資料夾"使用`gcc`編譯。
+> 備註: python 一定要使用 venv，否則就必須使用 pyenv
 
 ## 傳統語言安裝用法 (v2.0)
 請參閱 [nvm](https://github.com/nvm-sh/nvm) 與 [pyenv](https://github.com/pyenv/pyenv)。
