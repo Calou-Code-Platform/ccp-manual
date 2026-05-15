@@ -8,6 +8,7 @@
 - 想使用 iPad 寫程式，怎麼搞？
 - 究竟哪些 Port 可以被使用？
 - 讓容器重新啟動的辦法。
+- 專案配置。
 
 ## 可用工具
 - [Visual Studio Code](https://code.visualstudio.com/download)
@@ -43,7 +44,7 @@
 1. 創建一個 SSH 即可。
 2. 僅會用到 Address Port username password。
 
-## 初始化容器
+## 初始化容器 (v2.0 或者 需要用 iPad寫程式者)
 1. 你進入了容器後，使用 `~/get-builder.sh`
 2. 安裝你需要的東西
 3. 使用 `source ~/.bashrc` 更新你的指令（不會有任何回應是正常的）
@@ -51,8 +52,19 @@
 ## iPad 寫程式？
 請在 [#初始化容器](https://github.com/Calou-Code-Platform/ccp-manual/blob/main/README_zhtw.md#初始化容器) 安裝 visual studio code tunnel 後，在一個新的 tmux 中輸入 `code-tunnel tunnel` ，登入後前往 [vscode.dev](https://vscode.dev) ，選擇連線到通道。
 
-## 關於 nodejs 或者 python
-請參閱 [nvm(Node version manager)](https://github.com/nvm-sh/nvm) & [pyenv(Simple Python Version Management)](https://github.com/pyenv/pyenv)
+## 快速語言安裝配置 (v2.1)
+這是 Remosh v2.1 增加的黑魔法: `devbox`，這可以幫助你快速的處理環境，免除過去需要初始化的窘境。<br>
+具體用法是這樣的 (2~4只需執行一次):
+1. 首先，先 `cd` 進你要的專案資料夾 (沒有就創建，你這笨蛋)
+2. 使用這個指令 `devbox init`
+3. 再來安裝你要的版本(這裡用node v25 + python 3.13示範) `devbox add python@3.13 nodejs@25`
+4. 使用 `devbox generate direnv` + `cd .`
+5. 好了，你未來(即使更新容器)只要cd這個資料夾，他就會自動執行第4步，你就只需要直接 `node index.js` 就好！
+
+> 備註: 如果專案需要用到像是圖形解碼，你只需要使用 `devbox add ffmpeg` 就好，這樣就不會污染其他專案。同理，如果你想要寫C，那就是 `devbox add gcc` 就好。
+
+## 傳統語言安裝用法 (v2.0)
+請參閱 [nvm](https://github.com/nvm-sh/nvm) 與 [pyenv](https://github.com/pyenv/pyenv)。
 
 ## 關於 tmux
 | 說明 | 指令 |
