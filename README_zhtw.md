@@ -44,7 +44,7 @@
 1. 創建一個 SSH 即可。
 2. 僅會用到 Address Port username password。
 
-## 初始化容器 (v2.0 或者 需要用 iPad寫程式者)
+## 初始化容器
 1. 你進入了容器後，使用 `~/get-builder.sh`
 2. 安裝你需要的東西
 3. 使用 `source ~/.bashrc` 更新你的指令（不會有任何回應是正常的）
@@ -52,8 +52,8 @@
 ## iPad 寫程式？
 請在 [#初始化容器](https://github.com/Calou-Code-Platform/ccp-manual/blob/main/README_zhtw.md#初始化容器) 安裝 visual studio code tunnel 後，在一個新的 tmux 中輸入 `code-tunnel tunnel` ，登入後前往 [vscode.dev](https://vscode.dev) ，選擇連線到通道。
 
-## 快速語言安裝配置 (v2.1)
-這是 Remosh v2.1 增加的黑魔法: `devbox`，這可以幫助你快速的處理環境，免除過去需要初始化的窘境。<br>
+## 快速語言安裝配置 (v2.1r)
+這是 Remosh v2.1r 增加的黑魔法: `devbox`，這可以幫助你快速的處理環境，免除過去需要初始化的窘境。<br>
 具體用法是這樣的 (2和3只需執行一次):
 1. 首先，先 `cd` 進你要的專案資料夾 (沒有就創建，你這笨蛋)
 2. 使用這個指令 `devbox init`
@@ -63,7 +63,7 @@
 > 備註: 如果專案需要用到像是圖形解碼，你只需要使用 `devbox add ffmpeg` 就好，這樣就不會污染其他專案。同理，如果你想要寫C，那就是 `devbox add gcc` 就好，你未來就可以在"這個資料夾"使用`gcc`編譯。<br>
 > 備註: python 一定要使用 venv，否則就必須使用 pyenv
 
-## 傳統語言安裝用法 (v2.0)
+## 傳統語言安裝用法
 請參閱 [nvm](https://github.com/nvm-sh/nvm) 與 [pyenv](https://github.com/pyenv/pyenv)。
 
 ## 關於 tmux
